@@ -3,7 +3,7 @@ For the Spec investigation!!!<br>
 
 https://grimreaper2654.github.io/Year-11-Spec-Investigation-1/main.html<br>
 
-How to Use:
+**How to Use:**<br>
 The text field called N is the number of terms (max 15) <br>
 The sequence is the top row of numbers (set auto sequence to 0 to input your own numbers)<br>
 The premutator is the second row of numbers<br>
