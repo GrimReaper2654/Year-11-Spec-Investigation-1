@@ -36,7 +36,7 @@ function permutate() {
 function reset() {
     n = parseInt(document.getElementById(`N`).value);
     autoFill = JSON.parse(document.getElementById(`Auto`).value);
-    seq = JSON.parse('['+document.getElementById(`Sequence`).value+']');
+    seq = ['A','A','R','D','V','A','R','K','S'];//JSON.parse('['+document.getElementById(`Sequence`).value+']');
     NPermutator = JSON.parse('['+document.getElementById(`Permutator`).value+']');
     if (autoFill) {
         autofill()
