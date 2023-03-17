@@ -1,11 +1,11 @@
-'''
+
 import itertools
 import copy
 
 def get_permutations(nums):
     return list(itertools.permutations(nums))
 
-n = 9
+n = 9 # only change this number
 nseq = []
 for i in range(n):
     nseq.append(i+1)
@@ -33,6 +33,8 @@ with open('output.txt', 'w') as f:
 
 output_str = f'Maximum loop length: {maxt}\n'
 print(output_str)
+
+# advanced program
 '''
 import itertools
 import copy
@@ -74,4 +76,4 @@ with open('output.txt', 'w') as f:
 
 output_str = f'Loop length  = 4: {cnt}\n'
 print(output_str)
-
+'''
